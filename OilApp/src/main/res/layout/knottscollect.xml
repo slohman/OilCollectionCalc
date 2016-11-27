@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/siteNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Site Number"
+        android:inputType="number"
+        android:padding="5dp" />
+
+      <EditText
+          android:id="@+id/lbsCollected"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="Total pounds Collected"
+          android:inputType="number"
+          android:padding="5dp" />
+      
+      <EditText
+          android:id="@+id/dateCollected"
+          android:layout_width="196dp"
+          android:layout_height="wrap_content"
+          android:hint="Date"
+          android:inputType="date"
+          android:padding="5dp" />
+
+      <EditText
+          android:id="@+id/miu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/miu"
+          android:inputType="numberDecimal"
+         />"
+
+      <EditText
+          android:id="@+id/comments"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/comments"
+          android:inputType="text">
+		 </EditText>
+       <Button
+           android:id="@+id/postcollection"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/post" />
+        
+</LinearLayout>

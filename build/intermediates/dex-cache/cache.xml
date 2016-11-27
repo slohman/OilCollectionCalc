@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="92ec53452660ca3320c1875e6fe1af5ac22435a5">
+        <dex dex="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0e2b72d896d5ae7fc06344653894cb9eec45677a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.actionbarsherlock-actionbarsherlock-4.4.0_ead2e24cb408e287cd09d41888d80c0e772eff5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\scott\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_6d30b8eb851ad6ec112e4935a15e925d7e14c991\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a64660fcb03b06f79ddd57f76a2971e363a16ab1">
+        <dex dex="J:\Studio Projects\OilCollectionCalc\OilApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_78ec0a0805563a66e57c391ae282b33ee98306f3\classes.dex" />
+    </item>
+
+</items>

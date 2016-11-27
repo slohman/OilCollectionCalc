@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.ocbiofuel"
+      android:versionCode="4"
+      android:versionName="2.0">
+    <uses-sdk 
+        android:minSdkVersion="10"
+     android:targetSdkVersion="17" />
+    
+     <uses-permission android:name="android.permission.INTERNET" />
+	 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	 
+    <application android:label="@string/app_name" android:icon="@drawable/oilbarrel">
+        <activity android:name=".OilCollectionCalcActivity"
+                  android:label="@string/app_name">
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+                
+           </activity> 
+           
+            
+                 <activity
+                  android:name=".RatioCalc"
+        		  android:label="Ratio Calc">
+        		 </activity>
+        		 
+                      <activity
+                  android:name=".CollectionPost"
+        		  android:label="Post">
+        		 </activity>
+        		   <activity
+                  android:name=".RegDataPost"
+        		  android:label="Reg Data Post">
+        		 </activity>
+        		   <activity
+                  android:name=".LookUpID"
+        		  android:label="ID Look Up">
+        		 </activity>
+        		 
+        		  <activity
+                  android:name=".miuadj"
+        		  android:label="ADJ OIL FOR MIU">
+        		 </activity>
+
+    </application>
+</manifest>

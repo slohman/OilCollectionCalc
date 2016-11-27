@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/siteID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="SiteID"
+        android:inputType="number"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/galsCollected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Total lbs Collected"
+        android:inputType="number"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/dateCollected"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="datetime"
+        android:padding="5dp" />
+    <EditText
+        android:id="@+id/driverID"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:hint="Driver ID"
+        android:inputType="number"
+        android:padding="5dp" />
+   
+
+    <Button
+        android:id="@+id/postcollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.59" >
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/sitelookupID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name of Site"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

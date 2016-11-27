@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="1094431073867143"
+    token="1077826484787491666"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1385" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="233" />
+    <task
+        name="verifier"
+        duration="37" />
+
+    <artifact
+        location="J:\Studio Projects\OilCollectionCalc\OilApp\build\outputs\apk\OilApp-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1094431073867143"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="J:\Studio Projects\OilCollectionCalc\OilApp\build\outputs\apk\OilApp-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

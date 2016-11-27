@@ -1,0 +1,7 @@
+#Sun Nov 27 12:25:05 PST 2016
+base.0=J\:\\Studio Projects\\OilCollectionCalc\\OilApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0e2b72d896d5ae7fc06344653894cb9eec45677a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=J\:\\Studio Projects\\OilCollectionCalc\\OilApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_78ec0a0805563a66e57c391ae282b33ee98306f3\\classes.dex
+base.1=J\:\\Studio Projects\\OilCollectionCalc\\OilApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_78ec0a0805563a66e57c391ae282b33ee98306f3
+file.0=J\:\\Studio Projects\\OilCollectionCalc\\OilApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0e2b72d896d5ae7fc06344653894cb9eec45677a\\classes.dex

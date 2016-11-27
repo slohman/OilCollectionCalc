@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="327dp"
+        android:layout_height="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        android:textSize="@dimen/size14" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="327dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@+id/etDate"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="time"
+        android:textSize="@dimen/size14" />
+    
+     <EditText
+         android:id="@+id/etManifest"
+         android:layout_width="327dp"
+         android:layout_height="71dp"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/etType"
+         android:background="@color/white"
+         android:ems="10"
+         android:hint="Manifest #"
+         android:inputType="text"
+         android:textSize="@dimen/size14" />
+
+     <EditText
+         android:id="@+id/etName"
+         android:layout_width="wrap_content"
+         android:layout_height="71dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/etDate"
+         android:layout_marginRight="3dp"
+         android:layout_marginTop="3dp"
+         android:layout_toLeftOf="@+id/etType"
+         android:background="@color/white"
+         android:ems="10"
+         android:hint="Generator Name"
+         android:inputType="textPersonName"
+         android:textColor="@color/black"
+         android:textSize="@dimen/size14" >
+
+         <requestFocus />
+     </EditText>
+
+     <Spinner
+         android:id="@+id/etType"
+         android:layout_width="327dp"
+         android:layout_height="71dp"
+         android:layout_above="@+id/etName"
+         android:layout_marginRight="3dp"
+         android:layout_toRightOf="@+id/etTime"
+         android:background="@color/white"
+         android:hint="Type" />
+
+     <EditText
+         android:id="@+id/etRecFacAddress"
+         android:layout_width="wrap_content"
+         android:layout_height="71dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/etName"
+         android:layout_marginTop="3dp"
+         android:background="@color/white"
+         android:ems="10"
+         android:hint="Rec. Facility"
+         android:inputType="textPostalAddress"
+         android:textSize="@dimen/size14" />
+
+     <EditText
+         android:id="@+id/etTotalIKG"
+         android:layout_width="wrap_content"
+         android:layout_height="71dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/etRecFacAddress"
+         android:layout_marginTop="3dp"
+         android:layout_toLeftOf="@+id/etTime"
+         android:background="@color/white"
+         android:ems="10"
+         android:hint="Total IKG Collected(Lbs)"
+         android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/etAddress"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_above="@+id/etRecFacAddress"
+          android:layout_alignLeft="@+id/etType"
+          android:layout_alignParentRight="true"
+          android:layout_marginTop="3dp"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Generator Address"
+          android:inputType="textPostalAddress"
+          android:textSize="@dimen/size14" />
+
+      <Spinner
+          android:id="@+id/spMethod"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignBottom="@+id/etTotalIKG"
+          android:layout_alignLeft="@+id/etTime"
+          android:layout_alignTop="@+id/etTotalIKG"
+          android:layout_marginLeft="3dp"
+          android:layout_marginRight="3dp"
+          android:layout_toLeftOf="@+id/etAddress"
+          android:background="@color/white" />
+
+      <EditText
+          android:id="@+id/etCapacity"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_above="@+id/etTransName"
+          android:layout_alignLeft="@+id/etAddress"
+          android:layout_alignTop="@+id/spMethod"
+          android:layout_marginRight="3dp"
+          android:layout_toLeftOf="@+id/etManifest"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Cont. Cap."
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/etFill"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignBottom="@+id/etCapacity"
+          android:layout_alignLeft="@+id/etManifest"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/etCapacity"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="% FIll"
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/etTransName"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/etTotalIKG"
+          android:layout_marginRight="3dp"
+          android:layout_marginTop="3dp"
+          android:layout_toLeftOf="@+id/etCapacity"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Transporter Name"
+          android:inputType="textPersonName"
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/etComments"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignRight="@+id/etTransName"
+          android:layout_below="@+id/etTransName"
+          android:layout_marginTop="3dp"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Comments "
+          android:inputType="textPersonName"
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/etGenRepName"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_above="@+id/etComments"
+          android:layout_alignBottom="@id/etTransName"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/etTransName"
+          android:layout_toRightOf="@+id/etTransName"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Generator Representative Name "
+          android:inputType="textPersonName"
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/etGenRepSignature"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignBottom="@+id/etComments"
+          android:layout_alignLeft="@+id/etCapacity"
+          android:layout_alignParentRight="true"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Gen Rep. Signature"
+          android:inputType="textPersonName"
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/editText1"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/etComments"
+          android:layout_marginRight="3dp"
+          android:layout_marginTop="3dp"
+          android:layout_toLeftOf="@+id/etGenRepSignature"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="Driver Signature"
+          android:inputType="textPersonName"
+          android:textColor="@color/black"
+          android:textSize="@dimen/size14" />
+
+      <EditText
+          android:id="@+id/txtGrossOil"
+          android:layout_width="wrap_content"
+          android:layout_height="71dp"
+          android:layout_alignLeft="@+id/etGenRepSignature"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/editText1"
+          android:background="@color/white"
+          android:ems="10"
+          android:hint="IKG Receiving Facility"
+          android:textSize="@dimen/size14" />
+
+</RelativeLayout>

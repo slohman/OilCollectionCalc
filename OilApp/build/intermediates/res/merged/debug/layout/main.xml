@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5px"
+        
+        android:text="oil Calculation"
+        android:paddingBottom="10pt"
+        android:paddingTop="15pt"
+        android:textSize="@dimen/size10" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" >
+
+        <EditText
+            android:id="@+id/etWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:hint="W&quot;"
+            android:inputType="phone"
+            android:width="90dp" >
+
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+
+        <EditText
+            android:id="@+id/etLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/etWidth"
+            android:hint="L&quot;"
+            android:inputType="phone"
+            android:width="90dp" />
+
+        <EditText
+            android:id="@+id/oildepth"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etLength"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/etLength"
+            android:hint="Depth in Inches"
+            android:inputType="date"
+            android:textSize="@dimen/size10" />
+    </RelativeLayout>
+    />
+
+    <Button
+        android:id="@+id/calcoilqty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Oil Qty" >
+    </Button>
+
+    <TextView
+        android:id="@+id/oilqty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:height="25pt"
+        android:padding="5px"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size14" />
+
+    <TextView
+        android:id="@+id/oilqty65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:height="25pt"
+        android:padding="5px"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size14" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvGPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPH"
+        android:textSize="@dimen/size10" />
+
+    <TextView
+        android:id="@+id/GPH65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPH"
+        android:textSize="@dimen/size10" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Process 1" />
+
+    <EditText
+        android:id="@+id/txtGrossOil"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Process 2" />
+
+</LinearLayout>

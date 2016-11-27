@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+      <item android:id="@+id/home"
+	    android:title="Home"
+	    android:orderInCategory="0"
+	    android:icon="@drawable/ic_menu_home"
+	    android:showAsAction="ifRoom">
+	   		 
+	</item>
+	<item android:id="@+id/back"
+	    android:title="Back"
+	    android:orderInCategory="0"
+	    android:icon="@drawable/back1"
+	    android:showAsAction="ifRoom">
+	   		 
+	</item>
+	
+	<item android:id="@+id/date"
+	    android:title="Set Date"
+	    android:orderInCategory="0"
+	    android:icon="@drawable/date1"
+	    android:showAsAction="ifRoom">
+	   		 
+	</item>
+	<item android:id="@+id/time"
+	    android:title="Set Time"
+	    android:orderInCategory="0"
+	    android:icon="@drawable/time1"
+	    android:showAsAction="ifRoom">
+	   		 
+	</item>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+	<dimen name="size14">14pt</dimen>
+	<dimen name="size16">16pt</dimen>
+	<dimen name="size12">12pt</dimen>
+	<dimen name="size10">10pt</dimen>
+	<dimen name="btn60">95px</dimen>
+</resources>
